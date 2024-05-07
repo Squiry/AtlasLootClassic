@@ -496,6 +496,52 @@ data["TierSets"] = {
 				{ 28,   3251900 }, -- Paladin / DD
 			},
 		}),
+		AtlasLoot:GameVersion_GE(AtlasLoot.CATA_VERSION_NUM, {
+			name = format(AL["Tier %s Sets"], "11"),
+			CoinTexture = "CATA",
+			[NORMAL_DIFF] = {
+				{ 1,    4000941 }, -- Warlock
+				{ 3,    4000935 }, -- Priest / Heal
+				{ 4,    4000936 }, -- Priest / Shadow
+				{ 6,    4000937 }, -- Rogue
+				{ 8,    4000930 }, -- Hunter
+				{ 10,   4000943 }, -- Warrior / Prot
+				{ 11,   4000942 }, -- Warrior / DD
+				{ 13,   4000926 }, -- Deathknight / Prot
+				{ 14,   4000925 }, -- Deathknight / DD
+				{ 16,   4000931 }, -- Mage
+				{ 18,   4000928 }, -- Druid / Heal
+				{ 19,   4000929 }, -- Druid / Owl
+				{ 20,   4000927 }, -- Druid / Feral
+				{ 22,   4000938 }, -- Shaman / Heal
+				{ 23,   4000940 }, -- Shaman / Ele
+				{ 24,   4000939 }, -- Shaman / Enh
+				{ 26,   4000933 }, -- Paladin / Heal
+				{ 27,   4000934 }, -- Paladin / Prot
+				{ 28,   4000932 }, -- Paladin / DD
+			},
+			-- [HEROIC_DIFF] = {
+			-- 	{ 1,    3250884 }, -- Warlock
+			-- 	{ 3,    3250885 }, -- Priest / Heal
+			-- 	{ 4,    3250886 }, -- Priest / Shadow
+			-- 	{ 6,    3250890 }, -- Rogue
+			-- 	{ 8,    3250891 }, -- Hunter
+			-- 	{ 10,   3250896 }, -- Warrior / Prot
+			-- 	{ 11,   3250895 }, -- Warrior / DD
+			-- 	{ 13,   3250898 }, -- Deathknight / Prot
+			-- 	{ 14,   3250897 }, -- Deathknight / DD
+			-- 	{ 16,   3250883 }, -- Mage
+			-- 	{ 18,   3250887 }, -- Druid / Heal
+			-- 	{ 19,   3250888 }, -- Druid / Owl
+			-- 	{ 20,   3250889 }, -- Druid / Feral
+			-- 	{ 22,   3250892 }, -- Shaman / Heal
+			-- 	{ 23,   3250893 }, -- Shaman / Ele
+			-- 	{ 24,   3250894 }, -- Shaman / Enh
+			-- 	{ 26,   3250899 }, -- Paladin / Heal
+			-- 	{ 27,   3250901 }, -- Paladin / Prot
+			-- 	{ 28,   3250900 }, -- Paladin / DD
+			-- },
+		}),
 	},
 }
 
