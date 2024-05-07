@@ -1,33 +1,21 @@
-name: CI
+name: Package and release
 
 on:
   push:
     tags:
-      - '*'
-      - '!**-bcc**'
-      - '!**-classic**'
+    - '**'
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-
-    - name: Install and run Luacheck
-      uses: nebularg/actions-luacheck@v1
-      with:
-        args: "--no-color -q"
-
-    - name: Update Curseforge Translations
-      run: ./cf_translations.sh
-      env:
-        CF_API_KEY: ${{ secrets.CF_API_KEY }}
-
-    - name: Create Package
-      uses: BigWigsMods/packager@master
-      env:
-        CF_API_KEY: ${{ secrets.CF_API_KEY }}
-        GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
-        WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
-        WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      - name: Clone project
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # gets entire git history, needed for automatic changelogs
+      - name: Create Package
+        uses: BigWigsMods/packager@master
+        env:
+          GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: -p 0 -w 0 -a 0
