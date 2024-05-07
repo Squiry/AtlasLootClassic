@@ -1,15 +1,17 @@
-name: CI
+name: Package and release
 
 on:
   push:
     tags:
-      - '*'
+    - '**'
 
 jobs:
-  build:
+  release:
+    runs-on: ubuntu-latest
+    steps:
     - name: Create Package
       uses: BigWigsMods/packager@master
       env:
         GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
       with:
-        args: -m .pkgmeta
+        args: -m .pkgmeta -p 0 -w 0 -a 0
