@@ -4,6 +4,10 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 [Changelog history](https://github.com/Hoizame/AtlasLootClassic/blob/master/AtlasLootClassic/Documentation/Release_Notes.md)
 
+## v3.3.0 (Oct. 22, 2023)
+- Added .toc files for cataclysm
+
+
 ## v3.2.0 (Oct. 22, 2023)
 
 - update .toc version

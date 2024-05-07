@@ -1,11 +1,11 @@
 ## Interface: 11500
 ## Author: Lag
-## Version: @project-version@
+## Version: 3.5.0
 ## Dependencies: AtlasLootClassic
 ## LoadOnDemand: 1
 
 #@non-debug@
-## Title: @localization(locale="enUS", key="Title-Data", namespace="ToC")@
+## Title: AtlasLootClassic |cFFFF0000[Data]|r
 ## Title-deDE: @localization(locale="deDE", key="Title-Data", namespace="ToC")@
 ## Title-esES: @localization(locale="esES", key="Title-Data", namespace="ToC")@
 ## Title-esMX: @localization(locale="esMX", key="Title-Data", namespace="ToC")@
@@ -16,7 +16,7 @@
 ## Title-ruRU: @localization(locale="ruRU", key="Title-Data", namespace="ToC")@
 ## Title-zhCN: @localization(locale="zhCN", key="Title-Data", namespace="ToC")@
 ## Title-zhTW: @localization(locale="zhTW", key="Title-Data", namespace="ToC")@
-## Notes: @localization(locale="enUS", key="Notes-Data", namespace="ToC")@
+## Notes: AtlasLoot data module
 ## Notes-deDE: @localization(locale="deDE", key="Notes-Data", namespace="ToC")@
 ## Notes-esES: @localization(locale="esES", key="Notes-Data", namespace="ToC")@
 ## Notes-esMX: @localization(locale="esMX", key="Notes-Data", namespace="ToC")@

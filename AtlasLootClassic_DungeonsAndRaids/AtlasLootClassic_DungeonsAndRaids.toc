@@ -1,11 +1,11 @@
 ## Interface: 30403
 ## Author: Lag
-## Version: @project-version@
+## Version: 3.5.0
 ## Dependencies: AtlasLootClassic
 ## LoadOnDemand: 1
 
 #@non-debug@
-## Title: @localization(locale="enUS", key="Title-DaR", namespace="ToC")@
+## Title: AtlasLootClassic |cFF0099FF[Dungeons and Raids]|r
 ## Title-deDE: @localization(locale="deDE", key="Title-DaR", namespace="ToC")@
 ## Title-esES: @localization(locale="esES", key="Title-DaR", namespace="ToC")@
 ## Title-esMX: @localization(locale="esMX", key="Title-DaR", namespace="ToC")@
@@ -16,7 +16,7 @@
 ## Title-ruRU: @localization(locale="ruRU", key="Title-DaR", namespace="ToC")@
 ## Title-zhCN: @localization(locale="zhCN", key="Title-DaR", namespace="ToC")@
 ## Title-zhTW: @localization(locale="zhTW", key="Title-DaR", namespace="ToC")@
-## Notes: @localization(locale="enUS", key="Notes-DaR", namespace="ToC")@
+## Notes: AtlasLoot loot tables from Dungeons and Raids
 ## Notes-deDE: @localization(locale="deDE", key="Notes-DaR", namespace="ToC")@
 ## Notes-esES: @localization(locale="esES", key="Notes-DaR", namespace="ToC")@
 ## Notes-esMX: @localization(locale="esMX", key="Notes-DaR", namespace="ToC")@

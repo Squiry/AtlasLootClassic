@@ -1,4 +1,4 @@
-## Interface: 20504
+## Interface: 40400
 ## Author: Lag
 ## Version: 3.5.0
 ## Dependencies: AtlasLootClassic
@@ -42,3 +42,4 @@ locales.lua
 items.lua
 source.lua
 source-tbc.lua
+source-wrath.lua

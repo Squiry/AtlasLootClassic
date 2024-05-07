@@ -1,4 +1,4 @@
-## Interface: 30403
+## Interface: 40400
 ## Author: Lag
 ## Version: 3.5.0
 ## Dependencies: AtlasLootClassic
@@ -43,3 +43,4 @@ private.lua
 data.lua
 data-tbc.lua
 data-wrath.lua
+data-cata.lua
